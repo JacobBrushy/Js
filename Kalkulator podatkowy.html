@@ -1,0 +1,61 @@
+<!doctype html>
+    <html>
+        <head>
+            <title> Kalkulator </title>
+                <meta charset="UTF-8"/>
+        </head>
+            <body>
+                <h1> <font size="25"> <center> Kalkulator podatkowy </center> </font> </h1>
+                 
+                <script>
+                     
+                function dodawanie(formularz)
+                {
+                    if (formularz.liczba1.value =="" & formularz.liczba2.value =="")
+                    alert("Podaj liczby!");
+                     
+                    else if (formularz.liczba1.value <= -1 | formularz.liczba2.value <= -1)
+                        alert("Proszę podaj liczby, które nie są ujemne.");
+                     
+                    else
+                    {
+                    a=formularz.liczba1.value;
+                    b=formularz.liczba2.value;
+                    formularz.wynik.value=a*1+b*1;
+                    }
+                }
+                
+                document.writeln("<br><br><br>");
+                 
+                function HistoriaWyników(formularz)
+                {
+                    for(i = 0; i < 20; i++)
+                    {
+                    u = formularz.wynik.value;
+                    }
+ 
+                    tablica1 = new Array (u);
+                    document.write(tablica1 +" ");
+                     
+                }
+                 
+                document.writeln("<br><br><br>");
+                 
+                </script>
+                 
+                <form name="formularz">
+                    Kwota zobowiązania: <input type="text" name="liczba1"><br><br>
+                    Stawka odsetek(podstawowa, obnizona 50%, obnizona 75%, podwyzszona): <input type="text" name="liczba2"><br><br><br><br>
+                <input type="button" value="+" onClick="dodawanie(this.form) & HistoriaWyników(this.form)">
+                Wynik: <input type="text" name="wynik"><br><br>
+                
+                <form action="...">
+                    <input type="checkbox" name="podstawowa" value="wartość">Podstawowa
+                    <input type="checkbox" name="obnizona" value="wartość">Obnizona 50%
+                    <input type="checkbox" name="Obnizona" value="wartość">Obnizona 75%
+                    <input type="checkbox" name="podwyzszona" value="wartość">podwyzszona
+                </form>
+                </form>
+                 
+            </body>
+    </html>
