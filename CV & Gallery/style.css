@@ -1,0 +1,37 @@
+#menu {
+    background-color: #261519;
+    text-align: center;
+}
+h1 {
+    color: aquamarine;
+}
+
+#skills {
+    background-color: #8C2A2A;
+}
+#skills h1{
+    background-color: #8C2A2A;
+}
+h1 {
+    color: #F2F2F2;
+}
+
+#content {
+    background-color: #8C2A2A;
+ 
+}
+
+#content h1 {
+
+    color: #F2F2F2;
+}
+
+body {
+    background-color: #565959;
+}
+
+#model {
+    position: absolute;
+    top: 13px;
+    right: 8px;
+}

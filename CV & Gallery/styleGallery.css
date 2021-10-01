@@ -1,0 +1,13 @@
+#body {
+    border-style: outset;
+    border-width: 5px;
+    border-style: solid;
+    border-color: yellow;
+    width: 390px;
+    height: 245px;
+  }
+
+#textarea {
+        color: yellow;
+        background-color: black;
+  }
