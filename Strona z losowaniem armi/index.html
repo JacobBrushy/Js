@@ -1,0 +1,40 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+
+<div id="baner">
+    <a href="https://pl.wikipedia.org/wiki/Burgundia" target="_Blank">
+    <img src="herb.png" width="automatic" height="100%"></a>
+</div>
+
+<div id="lewy">
+    
+</div>
+
+<div id="prawy">
+    <input id="muszkiet" placeholder="liczbamuszkieterów"><br><br>
+    <input id="alter" placeholder="liczba alterzystów"><br><br>
+    <input id="kawaler" placeholder="liczba kawalerzystów"><br><br>
+    <button type="button" onclick="Wyswietl();">Wyswietl</button>
+</div>
+
+<script>
+    function Wyswietl(){
+
+    muszkiet=document.getElementById("muszkiet").value;
+    alter=document.getElementById("alter").value;
+    kawaler=document.getElementById("kawaler").value;
+    document.getElementById("lewy").innerHTML=muszkiet+" Muszkieterów"+"<br>"+alter+" Alterrzyści"+"<br>"+kawaler+" Kawalerzysci";
+    }
+</script>
+
+<div id="footer">
+    
+</div>
+
+    </body>
+</html>

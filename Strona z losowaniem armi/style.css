@@ -1,0 +1,29 @@
+
+
+#baner{
+    background-color: blue;
+    height: 25%;
+    
+}
+
+#lewy{
+    background-color: red;
+    height: 50%;
+    width: 50%;
+    display: inline-block;
+    font-size: 50px; 
+}
+
+#prawy{
+    background-color: chartreuse;
+    height: 50%;
+    width: 50%;
+    display: inline-block;
+    float: right;
+}
+
+#footer{
+    background-color: #600201;
+    float: none;
+    height: 25%;
+}
