@@ -26,14 +26,18 @@
     function Wyswietl(){
 
     muszkiet=document.getElementById("muszkiet").value;
-    alter=document.getElementById("alter").value;
-    kawaler=document.getElementById("kawaler").value;
-    document.getElementById("lewy").innerHTML=muszkiet+" Muszkieterów"+"<br>"+alter+" Alterrzyści"+"<br>"+kawaler+" Kawalerzysci";
+    artyleria=document.getElementById("alter").value;
+    kawaleria=document.getElementById("kawaler").value;
+    var wrog_muszkiet = muszkiet * Math.floor(Math.random() * 20 + 1);
+    var wrog_artyleria = artyleria * Math.floor(Math.random() * 20 + 1);
+    var wrog_kawaleria = kawaleria * Math.floor(Math.random() * 20 + 1);
+            
+            document.getElementById("lewy").innerHTML="muszkieterzy " + "&nbsp" + muszkiet +  "<br>artylerzysci " +  "&nbsp&nbsp&nbsp&nbsp" + artyleria + "<br>kawalerzysci " +  "&nbsp&nbsp" + kawaleria + "<br><br><br><br><br> Wrodzy muszkieterowie &nbsp&nbsp" + wrog_muszkiet + "<br>Wroga artyleria &nbsp&nbsp" + wrog_artyleria + "<br>Wroga kawaleria &nbsp&nbsp" + wrog_kawaleria;
     }
 </script>
 
 <div id="footer">
-    
+    <img src="kon.gif" width="automatic" height="100%"></a>
 </div>
 
     </body>
