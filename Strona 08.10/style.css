@@ -1,0 +1,26 @@
+#tytul{
+    background-color: blue;
+    height: 25%;
+    text-align: center;
+    font-size: 150px;
+}
+
+#lewy{
+    background-color: red;
+    height: 30%;
+    width: 30%;
+    display: inline-block;
+    font-size: 20px; 
+}
+
+#prawy{
+    background-color: chartreuse;
+    height: 30%;
+    width: 35%;
+    display: inline-block;
+    float: right;
+}
+
+body{
+    background-color: brown;
+}
