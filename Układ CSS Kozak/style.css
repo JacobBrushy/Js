@@ -1,0 +1,90 @@
+
+
+.baner {
+    color: blue;
+    text-align: center;
+    display: flex;
+    margin-left: 35%;
+}
+
+.gora {
+    background-color: red;
+    width: 90%;
+    height: 100px;
+    margin: 5%;
+}
+
+.lewygora {
+    transition: 3s;
+    background-color: royalblue;
+    width: 30%;
+    height: 100px;
+    float: left;
+    margin-left: 5%;
+}
+
+.lewygora:hover {
+    background-color: red;
+}
+
+.srodekgora {
+    transition: 3s;
+    background-color: saddlebrown;
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+.srodekgora:hover {
+    background-color: yellow;
+}
+
+.prawygora {
+    transition: 3s;
+    background-color: seagreen;
+    width: 30%;
+    height: 100px;
+    float: left;
+}
+.prawygora:hover {
+    background-color: yellowgreen;
+}
+
+.lewydol {
+    transition: 3s;
+    background-color: yellow;
+    width: 30%;
+    height: 100px;
+    margin-left: 5%;
+}
+.lewydol:hover {
+    background-color: violet;
+}
+
+.srodekdol {
+    transition: 3s;
+    background-color: pink;
+    width: 30%;
+    height: 100px;
+}
+.srodekdol:hover {
+    background-color: tomato;
+}
+
+.prawydol {
+    transition: 3s;
+    background-color: black;
+    width: 30%;
+    height: 100px;
+}
+
+.prawydol:hover {
+    color: yellowgreen;
+}
+
+.kontener {
+    display: flex;
+}
+
+.dolek {
+    display: flex;
+}
